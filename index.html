@@ -1,0 +1,62 @@
+<!-- <doctype> determines the layout mode. This is the HTMLS layout doctype mode. -->
+<!doctype html>
+<!-- Root (aka parent) element of the page and will always be <html>. -->
+<html lang="en">
+
+	<!-- The <head> element contains metadata — information about the page, rather than the body of the page itself. -->
+	<head> 
+		<!-- Declares character encoding for your page and how the browser should render.  -->
+		<meta charset="utf-8">
+		<!-- <title> element defines the title of your page. -->
+		<title>This is my page title.</title>
+		<!-- <style> element is where you can place in page styles. -->
+		<style></style>
+		<!-- <link> elements explain why you are pointing to the link you are pointing to. e.g. CSS, feeds, favicon, etc.-->
+		<link rel="stylesheet" href="styles.css" type="text/css" media="screen" charset="utf-8">
+		
+	</head>
+
+	<!-- <body> element is where all of the content of your page should be placed. -->
+	<body>
+		<!-- <header> element is a set introductory aids for your page. -->
+		<header>
+			<!-- <hgroup> is a set of h1-h6 elements that are titles, subtitles or taglines. -->
+		    <hgroup>
+		    	<!-- <h1> thru <h6> are header elements. The numbers signify their nesting rank in the code. -->
+		      	<h1>This is the header of the page.</h1>
+		      	<h2>This is the sub-header to my page</h2>
+		    </hgroup>
+		    <!-- The <nav> represents a section of your code with navigation links. -->
+		    <nav>
+		    	<!-- <ul> is an un-ordered list of items, whereas <ol> would be an ordered list. -->
+		      	<ul>
+		        	<li><a href="#">link #1</a></li>
+		        	<li><a href="#">link #2</a></li>
+		        	<li><a href="#">link #3</a></li>
+		        	<li><a href="#">link #4</a></li>
+		      	</ul>
+		    </nav>
+
+		</header>
+		<!-- <article> element is a self-contained writing on a page. This could be a post, user comments or any other independent item of content.-->
+		<article>
+		    <header>
+		    	<h1>Post title</h1>
+		      	<time datetime="2012-11-30" pubdate>November 30, 2012</time>
+		    </header>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#" rel="bookmark" title="link to this post">Read more...</a></p>
+		</article>
+
+		<article>
+		    <header>
+		    	<h1>Post title</h1>
+		      	<time datetime="2012-10-17" pubdate>October 17, 2012</time>
+		    </header>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#" rel="bookmark" title="link to this post">Read more...</a></p>
+		</article>
+		
+		<!-- <footer> represents a footer for its nearest ancestor sectioning content or sectioning root element. Usually contains copyright and/or contact information on the page, and on the bottom of the page. Doesn't HAVE to appear at the bottom and can be used more than once. -->
+		<footer> &copy;2012</footer>
+
+	</body>
+</html>

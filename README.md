@@ -1,4 +1,4 @@
-html5-template
-==============
+html5 template
+========================
 
-This is an html5 template I created for my class on html for the Teen Tech Camp in Durham, NC.
+This is a starter HTML5 template for the Teen Tech Camp in Durham NC. It is meant to serve as a reference for this kids that attended the session and a starter template.
